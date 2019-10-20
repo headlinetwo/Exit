@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/level_won_layout_linear_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/levelWonMenuBackground"
+    android:orientation="vertical">
+
+    <de.headlinetwo.exit.customviews.CustomTextView
+        android:id="@+id/level_won_menu_congratulations_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/level_won_menu_heading"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+
+    <de.headlinetwo.exit.customviews.CustomTextView
+        android:id="@+id/level_won_menu_description_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:theme="@style/AlertDialogDescriptionTextViewStyle" />
+
+    <ProgressBar
+        android:id="@+id/level_won_menu_progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:max="100"
+        android:padding="20dp"
+        android:progress="10"
+        android:progressDrawable="@drawable/custom_progress_bar" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <de.headlinetwo.exit.customviews.CustomImageButton
+            android:id="@+id/level_won_menu_main_menu_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button_press_effect"
+            android:src="@drawable/ic_home_black_24dp" />
+
+        <de.headlinetwo.exit.customviews.CustomImageButton
+            android:id="@+id/level_won_menu_replay_level_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button_press_effect"
+            android:src="@drawable/ic_replay_black_24dp" />
+
+        <de.headlinetwo.exit.customviews.CustomImageButton
+            android:id="@+id/level_won_menu_next_level_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button_press_effect"
+            android:src="@drawable/ic_navigate_next_black_24dp" />
+    </LinearLayout>
+</LinearLayout>

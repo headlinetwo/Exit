@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/level_locked_info_menu_layout_linear_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/levelLockedInfoMenuBackground"
+    android:orientation="vertical">
+
+    <de.headlinetwo.exit.customviews.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/level_locked_info_menu_locked_heading"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <de.headlinetwo.exit.customviews.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/level_locked_info_text"
+        android:textAlignment="center"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <de.headlinetwo.exit.customviews.CustomImageButton
+            android:id="@+id/level_locked_info_menu_previous_level_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button_press_effect"
+            android:src="@drawable/ic_navigate_next_black_24dp"
+            android:theme="@style/AlertDialogImageButtonStyle" />
+
+        <de.headlinetwo.exit.customviews.CustomImageButton
+            android:id="@+id/level_locked_info_menu_watch_ad_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button_press_effect"
+            android:src="@drawable/ic_ondemand_video_black_24dp"
+            android:theme="@style/AlertDialogImageButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

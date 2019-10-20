@@ -1,0 +1,24 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="1px" android:color="#000000" />
+        </shape>
+    </item>
+
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="0dp" />
+            <solid android:color="@color/customProgressBarBackground" />
+        </shape>
+    </item>
+
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <solid android:color="@color/customProgressBarForeground" />
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

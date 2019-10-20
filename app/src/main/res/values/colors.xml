@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cd6155</color>
+    <color name="colorPrimaryDark">#cd6155</color>
+    <color name="colorAccent">#cd6155</color>
+
+    <color name="primaryColor">#ffab00</color>
+    <color name="primaryLightColor">#ffdd4b</color>
+    <color name="primaryDarkColor">#c67c00</color>
+    <color name="secondaryColor">#f57c00</color>
+    <color name="secondaryLightColor">#ffad42</color>
+    <color name="secondaryDarkColor">#bb4d00</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#ff9100</color>
+
+    <color name="buttonPressed">#9e9e9e</color>
+    <color name="buttonReleased">#cfd8dc</color>
+    <color name="customProgressBarBackground">#64ffffff</color>
+    <color name="customProgressBarForeground">#c62828</color>
+
+    <color name="mainMenuHeadingBackground">#ffcc80</color>
+
+    <color name="mainMenuBackground">#FFEBCC</color>
+    <color name="levelBackground">#2f2f4f</color>
+
+    <color name="levelActivityMenuBar">#bdbdbd</color>
+
+    <color name="levelSelectionItemBackgroundColor">#fd6965</color>
+
+    <color name="levelWonMenuBackground">#fff176</color>
+    <color name="levelStuckMenuBackground">#ff8a65</color>
+    <color name="levelPauseMenuBackground">#fff9c4</color>
+    <color name="levelLockedInfoMenuBackground">#f9fbe7</color>
+    <color name="settingsMenuBackground">#f9fbe7</color>
+
+    <color name="playerHead">#922b21</color>
+    <color name="playerBody">#cd6155</color>
+    <color name="goalBlock">#eeff41</color>
+    <color name="fieldBlock">#f7dc6f</color>
+    <color name="voidBlock">#2f2f4f</color>
+
+    <color name="menuShadowColor">#b4000000</color>
+
+    <color name="menu_main_headings_shadow_color">#1e1e1e</color>
+</resources>

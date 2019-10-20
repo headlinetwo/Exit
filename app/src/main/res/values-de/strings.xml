@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Exit</string>
+    <string name="level_won_menu_heading">GLÜCKWUNSCH</string>
+    <string name="main_menu_landing_page_total_progress_info_text">"Dein Fortschritt: Du hast %solved% von %total% Level bestmöglich gelöst. Du hast bisher %swipe_count% Schritte gebraucht um alle bisher gelösten Level zu lösen. Es ist möglich alle Level mit %min_swipe_count% Schritten zu lösen. "</string>
+    <string name="ad_failed_to_load">Es ist ein Fehler beim Laden der Werbung aufgetreten, bitte überprüfe deine Internet Verbindung.</string>
+    <string name="ad_failed_to_show">Es ist ein Fehler beim Anzeigen der Werbung aufgetreten.</string>
+    <string name="loading_advertisement">Werbung wird geladen...</string>
+    <string name="advertisement_unlocked_level_successfully">Das nächste Level wurde freigeschalten!</string>
+    <string name="main_menu_about_page_heading">Infos</string>
+    <string name="main_menu_level_selection_page_heading">Spielen</string>
+    <string name="level_locked_info_menu_locked_heading">GESPERRT</string>
+    <string name="consent_menu_heading">Einverständnis</string>
+    <string name="level_pause_menu_heading">PAUSE</string>
+    <string name="level_stuck_menu_heading">DU HAST VERSAGT</string>
+    <string name="no_record">kein Rekord</string>
+    <string name="no_record_initial_display">0 | kein Rekord</string>
+    <string name="game_description_text">Exit ist ein schlichtes aber trotzdem sehr herausforderndes 2D Strategie Spiel!\nZiel des Spiels ist es alle Schlangen durch einfaches wischen nach OBEN, UNTEN, LINKS oder RECHTS in jeweils ein Ziel zu bewegen.\n\nViel Spaß!</string>
+    <string name="about_text">Exit ist ein Level basierendes Spiel mit bereits 100 einzigartigen Level. Jedes Level besteht aus einem individuellen Spielfeld sowie mehrere Schlangen die vom Spieler gesteuert werden können. Ziel des Spiels ist es alle Schlangen jeweils in ein Ziel zu bewegen, wobei hierfür nur einfache Schritte in horizontaler oder vertikaler Richtung auf dem Spielfeld vorgenommen werden können.\nEin Schritt ist hierbei eine einfache Geste die durch einfaches wischen von links nach rechts, oben nach unten, rechts nach links oder unten nach oben auf dem Bildschirm ausgeführt werden kann. Aber aufgepasst! Es können ausschließlich alle Schlangen gleichzeitig bewegt werden. So führt das wischen von unten nach oben also dazu dass sich alle Schlangen, welche einen freien Block über sich besitzen, nach oben bewegen.\n\nDas oberste Ziel ist es, alle Schlangen eines Levels in ein Ziel zu bewegen und dabei so wenige wie nötig Schritte zu verwenden ohne dabei stecken zu bleiben. Nicht stecken zu bleiben klingt erstmal einfach, jedoch bemerkt man recht schnell, dass einige Schritte dazu führen dass Schlangen in Sackgassen festhängen oder sich in sich selbst verheddern.\n\nÜber eine Bewertung im Google Play Store wären wir dir sehr dankbar!</string>
+    <string name="level_locked_info_text">Dieses Level ist leider noch nicht freigeschalten! Um dieses Level spielen zu können müssen alle vorigen Level freigeschalten sein. Level können entweder durch das erfolgreiche lösen des vorrigen Levels sowie durch das anschauen einer Werbung freigeschalten werden.</string>
+    <string name="level_won_beat_previous_record">Du hast dein vorrigen Rekord um %NEW_RECORD_DIFF% Schritten unterboten.</string>
+    <string name="level_won_best_combination">Du hast dieses Level erfolgreich mit der minimalen Anzahl an Schritten gelöst!</string>
+    <string name="level_won_has_better_record_already">Deine vorrigen Versuche waren besser :\'( Leider kein neuer Rekord.</string>
+    <string name="level_won_first_time">"WOW! Du hast dieses Level zum ersten Mal erfolgreich gelöst."</string>
+
+    <string name="level_won_description_array_well_done">Super!</string>
+    <string name="level_won_description_array_fantastic">Fantastisch!</string>
+    <string name="level_won_description_array_good_work">Ausgezeichnet!</string>0
+
+    <string name="level_hint_texts_array_first">Oh, hallo! Verwende deinen Finger um über den Bildschirm zu wischen. Wische von links nach rechts, oben nach unten, rechts nach links oder unten nach oben um die Schlange zu bewegen. Es ist dein Ziel die Schlange auf den gelben Zielblock zu steuern!</string>
+    <string name="level_hint_texts_array_second">DANKESCHÖN! Vielen Dank, dass du mein Spiel gespielt hast, es bedeutet mir wirklich sehr viel, dass du so weit gekommen bist.</string>
+    <string name="level_hint_texts_array_third">Wie du hier sehen kannst besitzen die meisten Level mehrere Schlangen. Beide Schlangen bewegen sich in dieselbe Richtung sobald du über den Bildschirm wischst. Du hast dieses Level bestanden sobald sich beide Schlangen in jeweils einem Ziel befinden. Außerdem kannst du Schlangen dazu verwenden um die Bewegung anderer Schlangen zu blockieren. Versuch dies in dem du 2x nach rechts wischst.</string>
+
+    <string name="level_stuck_menu_description_first">Oh, schade!</string>
+    <string name="level_stuck_menu_description_second">Du machst das super! Weiter so!</string>
+    <string name="level_stuck_menu_description_third">Auf geht\'s, nächster Versuch!</string>
+    <string name="level_stuck_menu_description_fourth">Versuch es nochmals, anstatt aufzugeben!</string>
+    <string name="level_stuck_menu_description_fifth">Versagen ist der Beweis dafür dass du es versucht hast. Nun versuchen es nochmals.</string>
+    <string name="level_stuck_menu_description_sixth">Scheitern ist nicht das Gegenteil von Erfolg. Es ist ein Teil davon.</string>
+    <string name="level_stuck_menu_description_seventh">\"Es gibt mehr Leute, die kapitulieren, als solche, die scheitern.\"\n\n-Henry Ford</string>
+
+    <string name="level_pause_menu_description_array_first">Welches Getränk trinken Firmenchefs?\n\nLeitungswasser</string>
+    <string name="level_pause_menu_description_array_second">Was essen Autos am liebsten?\n\nParkplätzchen</string>
+    <string name="level_pause_menu_description_array_third">Wie nennt man jemand der so tut als würde er etwas werfen?\n\nEinen Scheinwerfer.</string>
+    <string name="level_pause_menu_description_array_fourth">Wie nennt man ein verschwundenes Rindtier?\n\nOxford.</string>
+    <string name="level_pause_menu_description_array_fifth">Was ist die Lieblingsspeise von Piraten?\n\nKapern</string>
+    <string name="level_pause_menu_description_array_sixth">Was macht ein Wikinger auf einem Eisberg?\n\nFrieren.</string>
+    <string name="level_pause_menu_description_array_seventh">Was ist grün und geht aufs Klo?\n\nEin Kaktus.</string>
+    <string name="level_pause_menu_description_array_eighth">Was ist braun, klebrig und läuft durch die Wüste?\n\nEin Karamel.</string>
+    <string name="level_pause_menu_description_array_ninth">Fragt die eine Kerze: Sag mal, ist Wasser gefährlich?\n\nDavon kannste ausgehen.</string>
+    <string name="level_pause_menu_description_array_tenth">Wie nennt man einen Bob der Kaugummi kaut?\n\nBob der Kaumeister.</string>
+    <string name="level_pause_menu_description_array_eleventh">\"Sei du selbst die Veränderung, die du dir wünschst für diese Welt.\"\n\n–Mahatma Gandhi</string>
+    <string name="level_pause_menu_description_array_twelfth">\"Große Ergebnisse erfordern großen Ehrgeiz.\"\n\n-Heraklit</string>
+    <string name="level_pause_menu_description_array_thirteenth">\"Gib jedem Tag die Chance, der schönste deines Lebens zu werden.\"\n\n-Mark Twain</string>
+    <string name="level_pause_menu_description_array_fourteenth">\"Wenn du dich nicht selbst programmierst, wird das Leben dich programmieren.\"\n\n–Les Brown</string>
+    <string name="level_pause_menu_description_array_fifteenth">\"Die Schwierigkeiten wachsen, je näher man dem Ziel kommt.\"\n\n-Johann Wolfgang von Goethe</string>
+</resources>

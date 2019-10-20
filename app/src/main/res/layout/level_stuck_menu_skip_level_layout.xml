@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/level_stuck_skip_level_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/levelStuckMenuBackground"
+    android:orientation="vertical">
+
+    <de.headlinetwo.exit.customviews.CustomTextView
+        android:id="@+id/level_stuck_skip_level_menu_you_failed_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/level_stuck_menu_heading"
+        android:textAlignment="center"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <de.headlinetwo.exit.customviews.CustomTextView
+        android:id="@+id/level_stuck_skip_level_menu_description_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:theme="@style/AlertDialogDescriptionTextViewStyle" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <de.headlinetwo.exit.customviews.CustomImageButton
+            android:id="@+id/level_stuck_skip_level_menu_main_menu_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button_press_effect"
+            android:src="@drawable/ic_home_black_24dp" />
+
+        <de.headlinetwo.exit.customviews.CustomImageButton
+            android:id="@+id/level_stuck_skip_level_menu_skip_level_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button_press_effect"
+            android:src="@drawable/ic_ondemand_video_black_24dp"/>
+
+        <de.headlinetwo.exit.customviews.CustomImageButton
+            android:id="@+id/level_stuck_skip_level_menu_retry_level_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button_press_effect"
+            android:src="@drawable/ic_replay_black_24dp" />
+    </LinearLayout>
+</LinearLayout>

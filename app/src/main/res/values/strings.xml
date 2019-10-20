@@ -1,0 +1,114 @@
+<resources>
+    <string name="publisherId" translatable="false">pub-3578523232184327</string>
+    <string name="privacyPolicy" translatable="false">https://headlinetwo.de/exit/privacypolicy</string>
+    
+    <string name="google_admob_app_id" translatable="false">ca-app-pub-3578523232184327~7155279564</string>
+    <string name="advertisement_ad_id" translatable="false">ca-app-pub-3578523232184327/3720919014</string>
+
+    <string name="ad_failed_to_load">An error occurred whilst loading an advertisement, make sure to check your internet connection.</string>
+    <string name="ad_failed_to_show">An error occurred whilst displaying an advertisement.</string>
+    <string name="loading_advertisement">Loading advertisement...</string>
+    <string name="advertisement_unlocked_level_successfully">The next level has been unlocked!</string>
+
+    <string name="google_play_store_listing" translatable="false">https://play.google.com/store/apps/details?id=de.headlinetwo.exit</string>
+    <string name="twitter_developer_account_id" translatable="false">"twitter://user?user_id=943781945317535745"</string>
+    <string name="twitter_developer_account_name" translatable="false">https://twitter.com/headlinetwo</string>
+
+    <string name="app_name">Exit</string>
+
+    <!-- menu headings -->
+    <string name="main_menu_landing_page_heading" translatable="false">❏ EXIT</string>
+    <string name="main_menu_about_page_heading">About</string>
+    <string name="main_menu_level_selection_page_heading">Play</string>
+
+    <string name="level_won_menu_heading">CONGRATULATIONS</string>
+    <string name="level_locked_info_menu_locked_heading">LOCKED</string>
+    <string name="consent_menu_heading">CONSENT</string>
+    <string name="level_stuck_menu_heading">YOU FAILED</string>
+    <string name="level_pause_menu_heading">PAUSE</string>
+
+    <string name="no_record">no record</string>
+    <string name="no_record_initial_display">0 | no record</string>
+
+    <!-- descriptive texts-->
+    <string name="game_description_text">Exit is a very minimalistic yet challenging two-dimensional strategy game!\nYour goal is it to maneuver every snake into one goal by swiping either UP, DOWN, LEFT or RIGHT.\n\nHave fun!</string>
+    <string name="about_text">Exit is a level based game with currently 100 unique levels. Each level features a different game field as well as multiple snakes that can be controlled by the player. It is your objective to manoeuvre every snake into one goal by only using swipes.\nA swipe is a simple gesture that can be performed by swiping across the screen from left to right, top to bottom, right to left or bottom to top. But beware you may only control all snakes collectively. This means if you swipe up, all snakes that have an empty block above their head will move upwards.\n\nThe ultimate goal is it to manoeuvre every snake into one goal by using as little swipes as necessary, without getting stuck on the way there. Not getting stuck sounds pretty easy, but as you progress through different levels you will notice that often a certain swipe is going to place a snake in a dead end or tangled in itself/another snake.\n\nRating us on the Google Play Store is highly appreciated!</string>
+
+    <string name="main_menu_landing_page_total_progress_info_text">Your progress:\nYou perfectly solved %solved% out of %total% levels.\nYou used %swipe_count% swipes to solve all your levels so far. It is possible to solve all levels with %min_swipe_count% swipes.</string>
+
+    <string name="level_locked_info_text">Unfortunately this level is currently locked! You need to unlock all previous levels to play this level! To unlock a level you can either watch an advertisement or beat the previous levels.</string>
+
+    <string name="level_won_best_combination">You just solved this level with the least amount of swipes necessary!</string>
+    <string name="level_won_has_better_record_already">Looks like you already did better last time. No new record this time :(</string>
+    <string name="level_won_first_time">You just solved this level for the first time EVER!</string>
+    <string name="level_won_beat_previous_record">You beat your previous record by %NEW_RECORD_DIFF% swipes.</string>
+
+    <string name="level_stuck_menu_description_first">Oh, dammit!</string>
+    <string name="level_stuck_menu_description_second">You are doing great! Keep up the great work!</string>
+    <string name="level_stuck_menu_description_third">Just one more try!</string>
+    <string name="level_stuck_menu_description_fourth">Instead of giving up, try again.</string>
+    <string name="level_stuck_menu_description_fifth">Failure is proof that you tried. Now go try again.</string>
+    <string name="level_stuck_menu_description_sixth">F.A.I.L.\nFirst attempt in learning.</string>
+    <string name="level_stuck_menu_description_seventh">\"Failure is simply the opportunity to begin again, this time more intelligently.\"\n\n-Henry Ford</string>
+    <string-array name="level_stuck_menu_description">
+        <item>@string/level_stuck_menu_description_first</item>
+        <item>@string/level_stuck_menu_description_second</item>
+        <item>@string/level_stuck_menu_description_third</item>
+        <item>@string/level_stuck_menu_description_fourth</item>
+        <item>@string/level_stuck_menu_description_fifth</item>
+        <item>@string/level_stuck_menu_description_sixth</item>
+        <item>@string/level_stuck_menu_description_seventh</item>
+    </string-array>
+
+    <string name="level_won_description_array_well_done">Well done!</string>
+    <string name="level_won_description_array_fantastic">Fantastic!</string>
+    <string name="level_won_description_array_good_work">Good work!</string>
+    <string-array name="level_won_description">
+        <item>@string/level_won_description_array_well_done</item>
+        <item>@string/level_won_description_array_fantastic</item>
+        <item>@string/level_won_description_array_good_work</item>
+    </string-array>
+
+    <string name="level_pause_menu_description_array_first">How do you drown a hipster?\n\nThrow him in the mainstream.</string>
+    <string name="level_pause_menu_description_array_second">What do computers snack on?\n\nMicrochips.</string>
+    <string name="level_pause_menu_description_array_third">Why can\'t you trust an atom?\n\nBecause they make up literally everything.</string>
+    <string name="level_pause_menu_description_array_fourth">What did the blanket say as it fell off the bed?\n\nOh sheet!</string>
+    <string name="level_pause_menu_description_array_fifth">I like to spend every day as if it\'s my last.\n\nStaying in bed an calling for a nurse to bring me more pudding.</string>
+    <string name="level_pause_menu_description_array_sixth">What do sea monsters eat?\n\nFish and ships.</string>
+    <string name="level_pause_menu_description_array_seventh">What did the tomato say to the other tomato during a race?\n\nKetchup.</string>
+    <string name="level_pause_menu_description_array_eighth">What has four wheels and flies?\n\nA garbage truck.</string>
+    <string name="level_pause_menu_description_array_ninth">What\'s black, red, black, red, black, red?\n\nA zebra with a sun burn.</string>
+    <string name="level_pause_menu_description_array_tenth">Why is Perter Pan always flying?\n\nHe Neverlands.</string>
+    <string name="level_pause_menu_description_array_eleventh">\"Nothing is impossible, the word itself says \'I\'m possible\'!\"\n\n-Audrey Hepburn</string>
+    <string name="level_pause_menu_description_array_twelfth">\"Try not to become a man of success, but rather try to become a man of value.\"\n\n-Albert Einstein</string>
+    <string name="level_pause_menu_description_array_thirteenth">\"Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid.\"\n\n-Albert Einstein</string>
+    <string name="level_pause_menu_description_array_fourteenth">\"Intelligence is the ability to adapt to change.\"\n\n-Stephen Hawking</string>
+    <string name="level_pause_menu_description_array_fifteenth">\"Always remember that you are absolutely unique. Just like everyone else.\"\n\n-Margaret Mead</string>
+    <string-array name="level_pause_menu_description">
+        <item>@string/level_pause_menu_description_array_first</item>
+        <item>@string/level_pause_menu_description_array_second</item>
+        <item>@string/level_pause_menu_description_array_third</item>
+        <item>@string/level_pause_menu_description_array_fourth</item>
+        <item>@string/level_pause_menu_description_array_fifth</item>
+        <item>@string/level_pause_menu_description_array_sixth</item>
+        <item>@string/level_pause_menu_description_array_seventh</item>
+        <item>@string/level_pause_menu_description_array_eighth</item>
+        <item>@string/level_pause_menu_description_array_ninth</item>
+        <item>@string/level_pause_menu_description_array_tenth</item>
+        <item>@string/level_pause_menu_description_array_eleventh</item>
+        <item>@string/level_pause_menu_description_array_twelfth</item>
+        <item>@string/level_pause_menu_description_array_thirteenth</item>
+        <item>@string/level_pause_menu_description_array_fourteenth</item>
+        <item>@string/level_pause_menu_description_array_fifteenth</item>
+    </string-array>
+
+    <string name="level_hint_texts_array_first">Oh, hello there! Use your finger to swipe across the screen. From top to bottom, left to right, bottom to top or right to left in order to control the snake. Your objective is it to move the snake into the yellow goal block!</string>
+    <string name="level_hint_texts_array_second">THANK YOU! Thank you for playing my game, it truly means a lot to me that you have reached this far.</string>
+    <string name="level_hint_texts_array_third">As you can see here you can have multiple snakes in each level. Each snake moves in the same direction as you swipe. You win this level as soon as both snakes are in a goal. Also, you can use other snakes to block the movement of certain snakes. Try swiping right 2 times.</string>
+    <string-array name="level_hint_texts">
+        <item>@string/level_hint_texts_array_first</item>
+        <item>@string/level_hint_texts_array_second</item>
+        <item>@string/level_hint_texts_array_third</item>
+    </string-array>
+
+</resources>
